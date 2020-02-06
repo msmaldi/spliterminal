@@ -1,0 +1,22 @@
+Source: spliterminal
+Section: x11
+Priority: optional
+Maintainer: Matheus Maldi <msmaldi@hotmail.com>
+Build-Depends: appstream,
+               debhelper,
+               libgranite-dev,
+               libgtk-3-dev,
+               libvte-2.91-dev,
+               meson,
+               valac (>= 0.16)
+Standards-Version: 4.1.1
+Homepage: https://github.com/msmaldi/spliterminal
+
+Package: spliterminal
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Provides: x-terminal-emulator
+Description: Modern splittable terminal
+ Spliterminal is a beautiful and simple terminal emulator,
+ thats can be splittable and little to no configuration
+ and follows the elementary OS Human Interface Guidelines.

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Your Name <you@email.com> -->
+<component type="desktop">
+  <id>com.github.msmaldi.spliterminal</id>
+  <metadata_license>CC0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Spliterminal</name>
+  <summary>A splitable terminal</summary>
+  <description>
+    <p>
+      Spliterminal is a terminal emulator application that you
+      can split as you like, for accessing a UNIX shell environment
+      which can be used to run programs available on your system.
+    </p>
+  </description>
+  <provides>
+    <binary>com.github.msmaldi.spliterminal</binary>
+  </provides>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/msmaldi/spliterminal/master/data/screenshot.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/msmaldi/spliterminal/master/data/screenshot-night.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/msmaldi/spliterminal/master/data/screenshot-splited.png</image>
+    </screenshot>
+  </screenshots>
+  <custom>
+     <value key="x-appcenter-suggested-price">5</value>
+  </custom>
+  <translation></translation>
+  <developer_name>elementary LLC.</developer_name>
+  <url type="homepage">https://github.com/msmaldi/spliterminal/</url>
+  <url type="translate">https://github.com/msmaldi/spliterminal/</url>
+  <update_contact>msmaldi_AT_hotmail.com</update_contact>
+</component>

@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Spliterminal
+GenericName=Terminal
+Comment=Use the command line
+TryExec=com.github.msmaldi.spliterminal
+Exec=com.github.msmaldi.spliterminal
+# TRANSLATORS: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=com.github.msmaldi.spliterminal
+Type=Application
+Categories=GNOME;GTK;System;TerminalEmulator;
+StartupNotify=true
+Keywords=command;prompt;cmd;commandline;run;
+X-GNOME-UsesNotifications=true
+
+[Desktop Action NewWindow]
+Name=New Window
+Exec=com.github.msmaldi.spliterminal -n

@@ -13,6 +13,8 @@ You'll need the following dependencies:
 * libvte-2.91-dev
 * meson
 * valac
+* gettext
+* appstream-util
 
 Run `meson` to configure the build environment and then `ninja test` to build and run tests
 

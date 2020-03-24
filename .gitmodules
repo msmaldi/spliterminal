@@ -1,3 +1,3 @@
 [submodule "subprojects/lib-splittable-terminal"]
 	path = subprojects/lib-splittable-terminal
-	url = https://github.com/msmaldi/lib-splittable-terminal
+	url = https://github.com/msmaldi/lib-splittable-terminal.git

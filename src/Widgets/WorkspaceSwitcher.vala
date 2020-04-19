@@ -21,11 +21,6 @@ public class Spliterminal.WorkspaceSwitcher : Gtk.StackSwitcher
     public WorkspaceSwitcher (WorkspaceStack workspace_stack)
     {
         homogeneous = true;
-        margin_start = 10;
-        margin_top = 10;
-        margin_bottom = 10;
-        margin_end = 10;
-
         stack = workspace_stack;
     }
 }
